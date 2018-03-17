@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'button[alButton]',
   template: '<ng-content></ng-content>',
   styleUrls: [
-    './button.component.css'
+    'button.component.css'
   ]
 })
 

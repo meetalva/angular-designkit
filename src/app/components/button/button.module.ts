@@ -4,7 +4,9 @@ import { AlButtonComponent } from './button.component';
 
 @NgModule({
   imports: [],
-  exports: [],
+  exports: [
+    AlButtonComponent
+  ],
   declarations: [
     AlButtonComponent
   ],
