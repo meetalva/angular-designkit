@@ -1,10 +1,8 @@
-import { AlButtonModule } from './components/button/index';
+import { AlButtonModule } from './components/button';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
-
+import { AlHeadlineModule } from './components/headline';
 
 @NgModule({
   declarations: [
@@ -12,7 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AlButtonModule
+    AlButtonModule,
+    AlHeadlineModule
   ],
   providers: [
 
